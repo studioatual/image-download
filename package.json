@@ -1,0 +1,37 @@
+{
+  "name": "image-download",
+  "version": "1.0.0",
+  "description": "Download Images with Axios",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm-run-all --parallel webpack electron",
+    "webpack": "webpack",
+    "electron": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioatual/image-download.git"
+  },
+  "keywords": [],
+  "author": "Studio Atual <contato@studioatual.com> (https://www.studioatual.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studioatual/image-download/issues"
+  },
+  "homepage": "https://github.com/studioatual/image-download#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-stage-0": "^6.24.1",
+    "electron": "^2.0.8",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-reload": "^1.2.5",
+    "html-webpack-plugin": "^3.2.0",
+    "npm-run-all": "^4.1.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
